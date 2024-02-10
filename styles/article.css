@@ -1,12 +1,16 @@
 .article {
     box-sizing: border-box;
-    padding: 10px;
+    border: 1px solid rgb(1, 36, 139);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .home main .boxes .article nav img{
     height: 300px;
     width: 90%;
     margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid rgb(20 65 201);
 }
 
 .article article h1 {
@@ -49,4 +53,10 @@
 .main .home footer img {
     width: 25px;
     border-radius: 0;
+}
+
+@media (max-width: 700px) {
+    .home main .boxes .article nav img{
+        height: auto;
+    }
 }

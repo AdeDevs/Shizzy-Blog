@@ -24,7 +24,6 @@
 }
 
 .home main .boxes {
-    border: 1px solid rgba(0,0,0,.1);
     background-color: transparent;
     color: black;
     border-radius: 20px;
@@ -49,6 +48,9 @@
 .home main .boxes>section {
     display: flex;
     margin: 10px;
+    border: 2px solid rgb(1, 36, 139);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .home main .boxes>section .box-image {
@@ -121,11 +123,11 @@
 /* Sides Styling */
 .side .recent-box {
     border-radius: 20px;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(1,25,139,.338);
 }
 
 .side nav {
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(1, 35, 139, 0.338);
     padding: 10px;
 }
 
@@ -156,6 +158,7 @@ h2 {
 .side .recent {
     display: flex;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .side .recent h2 {
@@ -196,7 +199,7 @@ h2 {
 /* modified section style */
 .modified-box{
     margin-top: 20px;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(1, 35, 139, 0.338);
     border-radius: 20px;
 }
 
@@ -240,7 +243,7 @@ h2 {
 /* most-box styling */
 .most-box {
     margin: 20px 0; 
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(1, 35, 139, 0.338);
     border-radius: 20px;
 }
 

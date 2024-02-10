@@ -7,6 +7,8 @@
   margin: 0 auto;
   height: 80vh;
   overflow-y: scroll;
+  border: 1px solid rgb(0, 45, 181);
+  border-radius: 10px;
 }
 
 .admin-login p {
@@ -36,7 +38,7 @@
   width: 500px;
   height: 70px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #808080;
   display: block;
   padding: 15px;
   box-sizing: border-box;
@@ -48,12 +50,16 @@
   margin: 10px auto;
 }
 
+.admin-login #login textarea:focus, .admin-login #login input:focus {
+  border: 1px solid rgb(0, 45, 181);
+}
+
 .admin-login #login textarea {
   font-family: "Montserrat", sans-serif;
   width: 500px;
   height: 70px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #808080;
   display: block;
   padding: 15px;
   box-sizing: border-box;
