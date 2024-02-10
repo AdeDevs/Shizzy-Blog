@@ -124,6 +124,9 @@ ul {
     .nav-bar header ul, .nav-bar nav ul {
         display: none;
     }
+    .nav-bar #mobile {
+        display: initial;
+    }
 }
 /* hamburger menu */
 .nav-bar #hamburger{
