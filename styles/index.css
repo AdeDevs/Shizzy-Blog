@@ -120,7 +120,14 @@ ul {
         width: 100px;
     }
 }
-
+@media (max-width: 1040px) {
+    .nav-bar header ul, .nav-bar nav ul {
+        display: none;
+    }
+    .nav-bar #mobile {
+        display: initial;
+    }
+}
 /* hamburger menu */
 .nav-bar #hamburger{
     transition: 4s;
