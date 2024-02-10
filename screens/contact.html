@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/about.css">
+    <script defer src="../script.js"></script>
+    <title>Shizzy Blog</title>
+</head>
+<body>
+    <div>
+        <div class="nav-bar">
+            <header>
+              <h1>
+                <a href="../index.html">
+                  <img src="../assets/logo.png" />
+                </a>
+              </h1>
+              <ul>
+                <li>
+                  <a href="../index.html"> Home </a>
+                </li>
+                <li>
+                  <a href="./update.html"> Update </a>
+                </li>
+                <li>
+                  <a href="./crypto.html"> Crypto </a>
+                </li>
+                <li>
+                  <a href="./freebrowsing.html"> Free Browsing </a>
+                </li>
+                <li>
+                  <a href="./about.html"> About </a>
+                </li>
+                <li>
+                  <a id="special" href="./contact.html"> Contact Us </a>
+                </li>
+              </ul>
+              <img id="mobile" src="../assets/menu.png" onclick="OpenMe()"></img>
+              <img id="close" src="../assets/close.png" onclick="CloseMe()"/>
+            </header>
+      
+           <div id="hamburger">
+              <section>
+              <ul>
+                <li onclick="CloseMe()">
+                  <a href="../index.html"> Home </a>
+                </li>
+                <li onclick="CloseMe()">
+                  <a href="./update.html"> Update </a>
+                </li>
+                <li onclick="CloseMe()">
+                  <a href="./crypto.html"> Crypto </a>
+                </li>
+                <li onclick="CloseMe()">
+                  <a href="./freebrowsing.html"> Free Browsing </a>
+                </li>
+                <li onclick="CloseMe()">
+                  <a href="./about.html"> About </a>
+                </li>
+                <li onclick="CloseMe()">
+                  <a id="special" href="./contact.html"> Contact Us </a>
+                </li>
+              </ul>
+              </section>
+            </div>
+        </div>
+        <div class="main">
+            <div class="home">
+                <main>
+                  <div class="boxes">
+                    <div class="admin-login">
+                    <div id="login">
+                        <h1>Send Us A Message</h1>
+                        <form action="">
+                            <input required type="email" placeholder="Email" />
+                            <input required id="tel" type="tel" placeholder="Number"/>
+                            <textarea  placeholder="Type in your message" id="message"></textarea>
+                            <button type="submit">Submit</button> 
+                        </form>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="side">
+                    <div class="recent-box">
+                      <nav>
+                        <!-- {/* <p><a>Recent</a></p>
+                          <p><a>Popular</a></p>
+                          <p><a>Comments</a></p> */} -->
+                        <ul>
+                          <li>
+                            <a class="black">Recent</a>
+                          </li>
+                          <li>
+                            <a>Popular</a>
+                          </li>
+                          <!-- {/* <li>
+                            <a>Comments</a>
+                          </li> */} -->
+                        </ul>
+                      </nav>
+                      <div>
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/third.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                                Athene Network Review – How to mine ATH Coin, Legit or
+                                Scam?
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/fourth.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                              How to get 4.77gb with just N200 on MTN
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/fifth.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>Emberfund Review – How to get free $30 Bitcoin monthly, Legit or Scam?
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/sixth.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                              Palmpay Win Diamonds Giveaway – Earn from a share of 300 Million
+                              </h2>
+                              <div>
+                                  <img src="../assets/time.png"/>
+                                <p>1 day ago</p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/seventh.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                              FMCPAY App – How to get 2,500 FMC ($1.25) & up to $20
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+          
+                    <div class="modified-box">
+                      <nav>
+                        <h1>Last modified</h1>
+                        <img src="../assets/comment.png" />
+                      </nav>
+                      <div>
+                          <section>
+                              <img src="../assets/first.webp"/>
+                              <h1>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h1>
+                              
+                              <!-- {/* <div class="modified-foot">
+                                <img src="../assets/time.png" />
+                                <p>1 day ago</p>
+                              </div> */} -->
+                          </section>
+                          <section>
+                              <img src="../assets/mtn.webp"/>
+                              <h1>How To Activate MTN mPulse Education Data Plan Tunneled With Vpn</h1>
+                              
+                              <!-- {/* <div class="modified-foot">
+                                <img src="../assets/time.png" />
+                                <p>1 day ago</p>
+                              </div> */} -->
+                          </section>
+                          <section>
+                              <img src="../assets/second.webp"/>
+                              <h1>Ice Review – Everything you need to know about Ice Mining</h1>
+                              
+                              <!-- {/* <div class="modified-foot">
+                                <img src="../assets/time.png" />
+                                <p>1 day ago</p>
+                              </div> */} -->
+                          </section>
+                          <section>
+                              <img src="../assets/fourth.webp"/>
+                              <h1>How to get 4.77gb with just N200 on MTN</h1>
+                              
+                              <!-- {/* <div class="modified-foot">
+                                <img src="../assets/time.png" />
+                                <p>1 day ago</p>
+                              </div> */} -->
+                          </section>
+                      </div>
+                    </div>
+          <br />
+                    <div class="recent-box">
+                      <nav id="dummy">
+                          <h1>Popular Posts</h1>
+                          <img src="../assets/comment.png" />
+                      </nav>
+                      <div>
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/third.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                                Athene Network Review – How to mine ATH Coin, Legit or
+                                Scam?
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/fourth.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                              How to get 4.77gb with just N200 on MTN
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/fifth.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>Emberfund Review – How to get free $30 Bitcoin monthly, Legit or Scam?
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/sixth.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                              Palmpay Win Diamonds Giveaway – Earn from a share of 300 Million
+                              </h2>
+                              <div>
+                                  <img src="../assets/time.png"/>
+                                <p>1 day ago</p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+          
+                        <section class="recent">
+                          <div class="recent-image">
+                            <img src="../assets/seventh.webp" alt="" />
+                          </div>
+                          <div>
+                            <section class="news-preview">
+                              <h2>
+                              FMCPAY App – How to get 2,500 FMC ($1.25) & up to $20
+                              </h2>
+                              <div>
+                                <p>
+                                  <span>
+                                    <img src="../assets/time.png" />
+                                  </span>
+                                  1 day ago
+                                </p>
+                              </div>
+                            </section>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+          
+                    <div class="most-box">
+                      <nav>
+                          <h1>Most Viewed</h1>
+                          <img src="../assets/comment.png" />
+                      </nav>
+                      <div>
+                        <section>
+                          <p>08/01/2024</p>
+                          <h1>How to activate Free MTN 300mb Daily Data using VPN</h1>
+                        </section>
+                        <section>
+                          <p>08/01/2024</p>
+                          <h1>myMTN App – Get free 50gb Data on your MTN Sim</h1>
+                        </section>
+                        <section>
+                          <p>08/01/2024</p>
+                          <h1>How To Activate MTN mPulse Education Data Plan Tunneled With Vpn</h1>
+                        </section>
+                        <section>
+                          <p>08/01/2024</p>
+                          <h1>Luno Wallet – Get N3,500 in Bitcoin for Registration & Referral</h1>
+                        </section>
+                        <section>
+                          <p>08/01/2024</p>
+                          <h1>Noah Global – Get free $3 & up to $20 USDT</h1>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+          
+                <footer>
+                      <div class="footer-box">
+                        <div class="footer-recent">
+                          <nav>
+                            <ul>
+                              <li>
+                                <a class="black"><img src="../assets/clock.png" /></a>
+                              </li>
+                              <li>
+                                <a><img src="../assets/eye.png" /></a>
+                              </li>
+                              <li>
+                                <a><img src="../assets/chat.png" /></a>
+                              </li>
+                            </ul>
+                          </nav>
+                          <div>
+                            <section class="footer-card">
+                              <div class="footer-image">
+                                <img src="../assets/third.webp" alt="" />
+                              </div>
+                              <div>
+                                <section class="news-preview">
+                                  <h2>
+                                    Athene Network Review – How to mine ATH Coin, Legit or
+                                    Scam?
+                                  </h2>
+                                  <div>
+                                    <p>
+                                      <span>
+                                        <img src="../assets/clock.png" />
+                                      </span>
+                                      1 day ago
+                                    </p>
+                                  </div>
+                                </section>
+                              </div>
+                            </section>
+              
+                            <section class="footer-card">
+                              <div class="footer-image">
+                                <img src="../assets/fourth.webp" alt="" />
+                              </div>
+                              <div>
+                                <section class="news-preview">
+                                  <h2>
+                                  How to get 4.77gb with just N200 on MTN
+                                  </h2>
+                                  <div>
+                                    <p>
+                                      <span>
+                                        <img src="../assets/clock.png" />
+                                      </span>
+                                      1 day ago
+                                    </p>
+                                  </div>
+                                </section>
+                              </div>
+                            </section>
+              
+                            <section class="footer-card">
+                              <div class="footer-image">
+                                <img src="../assets/fifth.webp" alt="" /> 
+                              </div>
+                              <div>
+                                <section class="news-preview">
+                                  <h2>Emberfund Review – How to get free $30 Bitcoin monthly, Legit or Scam?
+                                  </h2>
+                                  <div>
+                                    <p>
+                                      <span>
+                                        <img src="../assets/clock.png" />
+                                      </span>
+                                      1 day ago
+                                    </p>
+                                  </div>
+                                </section>
+                              </div>
+                            </section>
+              
+                            <section class="footer-card">
+                              <div class="footer-image">
+                                <img src="../assets/sixth.webp" alt="" /> 
+                              </div>
+                              <div>
+                                <section class="news-preview">
+                                  <h2>
+                                  Palmpay Win Diamonds Giveaway – Earn from a share of 300 Million
+                                  </h2>
+                                  <div>
+                                    <p>
+                                      <span>
+                                      <img src="../assets/clock.png"/>
+                                      </span>
+                                      1 day ago
+                                      </p>
+                                  </div>
+                                </section>
+                              </div>
+                            </section>
+              
+                            <section class="footer-card">
+                              <div class="footer-image">
+                                <img src="../assets/seventh.webp" alt="" /> 
+                              </div>
+                              <div>
+                                <section class="news-preview">
+                                  <h2>
+                                  FMCPAY App – How to get 2,500 FMC ($1.25) & up to $20
+                                  </h2>
+                                  <div>
+                                    <p>
+                                      <span>
+                                        <img src="../assets/clock.png" />
+                                      </span>
+                                      1 day ago
+                                    </p>
+                                  </div>
+                                </section>
+                              </div>
+                            </section>
+                          </div>
+                        </div>
+              
+                        <div class="footer-modified">
+                          <nav>
+                            <h1>Check Also</h1>
+                          </nav>
+                          <div>
+                              <section>
+                                  <img src="../assets/first.webp"/>
+                                  <h1>Athene Network Review – How to mine ATH Coin, Legit or Scam?</h1>
+                                  
+                                  <div class="modified-foot">
+                                    <img src="../assets/time.png" />
+                                    <p>1 day ago</p>
+                                  </div> 
+                              </section>
+                              <section>
+                                  <img src="../assets/mtn.webp"/>
+                                  <h1>How To Activate MTN mPulse Education Data Plan Tunneled With Vpn</h1>
+                                  
+                                     <div class="modified-foot">
+                                    <img src="../assets/time.png" />
+                                    <p>1 day ago</p>
+                                  </div> 
+                              </section>
+                              <section>
+                                  <img src="../assets/second.webp"/>
+                                  <h1>Ice Review – Everything you need to know about Ice Mining</h1>
+                                  
+                                     <div class="modified-foot">
+                                    <img src="../assets/time.png" />
+                                    <p>1 day ago</p>
+                                  </div>
+                              </section>
+                              <section>
+                                  <img src="../assets/fourth.webp"/>
+                                  <h1>How to get 4.77gb with just N200 on MTN</h1>
+                                  
+                                     <div class="modified-foot">
+                                    <img src="../assets/time.png" />
+                                    <p>1 day ago</p>
+                                  </div>
+                              </section>
+                          </div>
+                        </div>
+                      </div>
+                      <br />
+                    </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

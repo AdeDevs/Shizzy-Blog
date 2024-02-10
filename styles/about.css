@@ -1,0 +1,218 @@
+.admin-login {
+  color: #000;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.admin-login p {
+  color: white;
+}
+
+.admin-login h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 20px auto;
+}
+
+#login {
+  width: 100%;
+}
+
+.admin-login #login form {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.admin-login #login input {
+  font-family: "Montserrat", sans-serif;
+  width: 500px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+  color: black;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 15px 13px;
+  transition: 300ms;
+  margin: 10px auto;
+}
+
+.admin-login #login textarea {
+  font-family: "Montserrat", sans-serif;
+  width: 500px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+  color: black;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 15px 13px;
+  transition: 300ms;
+  margin: 10px auto;
+  height: 200px;
+}
+
+#login form button {
+  background-color: rgb(0, 45, 181);
+  padding: 15px 50px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  transition: 300ms;
+  font-weight: bolder;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid black;
+}
+
+#login form button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 25, 101);
+}
+
+#login button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.admin-login #login form .search-cat {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  margin: 10px auto;
+  margin-top: -15px;
+  width: 300px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-login #login form .search-cat p {
+  color: #000;
+}
+
+.admin-login select {
+  font-family: "Poppins", sans-serif;
+  background-color: #1441c9;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  box-sizing: border-box;
+  border: none;
+}
+
+#search-result {
+display: none;
+}
+
+.admin-login #search-result {
+background-color: #1441c9;
+border-radius: 10px;
+width: 500px;
+box-sizing: border-box;
+padding: 10px;
+font-family: "poppins", sans-serif;
+font-size: 13px;
+text-align: center;
+border: 2px solid #333;
+margin: 10px auto;
+}
+
+.admin-login #search-result img {
+width: 300px;
+margin: 0 auto;
+border-radius: 10px;
+border: 2px solid #fff;
+display: block;
+}
+
+.admin-login #search-result h2 {
+font-size: 20px;
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+color: #fff;
+}
+
+.admin-login #search-result .btns {
+background-color: red;
+padding: 15px 50px;
+color: white;
+text-transform: uppercase;
+border-radius: 10px;
+border: none;
+width: 300px;
+margin: 10px;
+transition: 300ms;
+border: 2px solid black;
+font-weight: bolder;
+box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+}
+
+.admin-login #search-result .btns:hover {
+background-color: rgb(142, 0, 0);
+border: 2px solid #fff;
+}
+
+.create-posts .cat div {
+display: flex;
+align-items: center;
+}
+
+@media (max-width: 700px) {
+  .admin-login {
+    height: fit-content;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .admin-login #login form {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .admin-login #login input, .admin-login #login textarea {
+    margin: 30px auto;
+    box-sizing: border-box;
+    width: 80%;
+  }
+  .admin-login #login form .search-cat {
+    width: 80%;
+  }
+  .admin-login #search-result {
+    width: 80%;
+    height: fit-content;
+    box-sizing: border-box;
+    margin: 40px auto;
+    margin-bottom: 100px;
+  }
+  .admin-login #search-result .btns  {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .admin-login #search-result img {
+    width: 100%;
+  }
+  #login form button {
+    width: 80%;
+  }
+  .admin-login .forgot-password {
+    width: 100%;
+  }
+}
