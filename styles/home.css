@@ -12,7 +12,7 @@
 
 .home main {
     display: flex;
-    padding: 0 6%;
+    padding: 0;
     margin: 0 auto;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -40,7 +40,7 @@
 
 .home main .boxes img{
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
     display: block;
     align-items: center;
 }
@@ -48,7 +48,7 @@
 .home main .boxes>section {
     display: flex;
     margin: 10px;
-    border: 2px solid rgb(1, 36, 139);
+    border: 1px solid rgb(1, 36, 139);
     padding: 5px 10px;
     border-radius: 10px;
 }
@@ -169,14 +169,13 @@ h2 {
 }
 
 .recent-image {
-    width: 100%;
+    width: 50%;
     margin-right: 20px;
 }
 
 .recent-image img {
     width: 100%;
-    border-radius: 15px;
-    align-items: center;
+    border-radius: 5px;
 }
 
 .recent p {
@@ -454,24 +453,33 @@ footer .footer-box {
     }
 }
 
-@media (width:1300px) {
+@media (max-width:1300px) {
     .home main .boxes {
         margin: 0 auto;
     }
-    .home main .side {
+    .home main .boxes {
         width: 100%;
-        margin: 50px 0px 0px 20px;
+    }
+    .home main .side {
+        width: 98%;
+        margin: 0 auto;
+        box-sizing: border-box;
         align-items: center;
+    }
+    .recent-image {
+        width: 400px;
     }
     .side .recent h2 {
         width: 400px;
         font-size: 20px;
     }
-}
-@media (max-width:1300px) {
     .footer-box>div {
         margin: 10px auto;
         width: 90%;
+    }
+    .side .recent {
+        margin: 10px 0;
+        border: 1px solid rgb(1, 36, 139);
     }
 }
 
