@@ -41,9 +41,10 @@
 
 .home main .boxes img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 7px;
     display: block;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .home main .boxes>section {
@@ -51,18 +52,23 @@
     margin: 10px auto;
     border: 1px solid rgb(1, 36, 139);
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .home main .boxes>section .box-image {
-    width: 400px;
+    width: 300px;
     align-items: center;
     margin: 0px 25px 5px 5px;
     justify-content: center;
-    border: 2px solid rgb(1, 36, 139);
-    border-radius: 12px;
 }
 
+.home main .boxes>section .box-image img {
+    border: 2px solid rgb(1, 36, 139);
+}
+
+.home main .boxes>section div {
+    width: 100%;
+}
 
 .home main .boxes>section .info {
     display: flex;
