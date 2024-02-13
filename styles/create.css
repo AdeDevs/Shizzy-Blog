@@ -5,10 +5,10 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  height: 80vh;
   overflow-y: scroll;
   border: 1px solid rgb(0, 45, 181);
   border-radius: 10px;
+  padding: 20px 0;
 }
 
 .admin-login p {
@@ -95,6 +95,31 @@
 #login button a {
   color: inherit;
   text-decoration: none;
+}
+
+#login p {
+  font-size: 15px;
+  margin: 20px auto;
+  color: #000;
+  text-align: center;
+}
+
+#login a {
+  color: rgb(37, 92, 255);
+  text-decoration: underline 0.15em rgba(37, 92, 255, 0.347);
+  text-underline-offset: 0.1em;
+  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+  text-align: center;
+  margin: 15px auto;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+  transition: 300ms;
+}
+
+#login a:hover {
+  color: rgb(0, 34, 138);
+  text-decoration-color: rgb(0, 34, 138);
+  text-underline-offset: 0.4em;
 }
 
 .admin-login #login form .search-cat {
